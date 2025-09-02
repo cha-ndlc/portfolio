@@ -355,6 +355,7 @@ a:active {
         margin: 0;
         z-index: 1;
         padding-bottom: 10px;
+        background-color: rgba(11, 12, 16, 1);
     }
 
     .menu__list {
@@ -374,7 +375,9 @@ a:active {
         font-family: "Rubik Moonrocks", sans-serif;
         font-weight: 400;
         font-style: normal;
+        background-color: rgba(11, 12, 16, 1);
         position: relative;
+        z-index: 50;
     }
 
     .menu__sublist {
@@ -411,8 +414,6 @@ a:active {
 
     .menu__item:hover .menu__sublist {
         display: block;
-        top: 100%;
-        left: 0;
     }
 
     .header__logo {
@@ -440,6 +441,7 @@ a:active {
 
 
 }
+
 
 
 
