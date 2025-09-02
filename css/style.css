@@ -412,7 +412,8 @@ a:active {
     .menu__item:hover .menu__sublist {
         display: block;
         position: absolute;
-        bottom: 0;
+        top: 100%;
+        left: 0;
     }
 
     .header__logo {
@@ -440,6 +441,7 @@ a:active {
 
 
 }
+
 
 
 
