@@ -356,7 +356,6 @@ a:active {
         z-index: 1;
         padding-bottom: 10px;
         background-color: rgba(11, 12, 16, 1);
-        overflow: hidden;
     }
 
     .menu__list {
@@ -443,6 +442,7 @@ a:active {
 
 
 }
+
 
 
 
