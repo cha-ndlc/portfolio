@@ -384,7 +384,7 @@ a:active {
         padding-bottom: 10px;
         background-color: rgba(11, 12, 16, 1);
         position: absolute;
-        top: 100%:
+        top: 100%;
         left: 0;  
         display: none;
     }
@@ -440,6 +440,7 @@ a:active {
 
 
 }
+
 
 
 
