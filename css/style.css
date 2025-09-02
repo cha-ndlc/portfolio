@@ -374,15 +374,19 @@ a:active {
         font-family: "Rubik Moonrocks", sans-serif;
         font-weight: 400;
         font-style: normal;
+        position: relative;
     }
 
     .menu__sublist {
         list-style-type: none;
-        display: none;
         border-radius: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
         background-color: rgba(11, 12, 16, 1);
+        position: absolute;
+        top: 100%:
+        left: 0;  
+        display: none;
     }
 
     .menu__subitem {
@@ -436,6 +440,7 @@ a:active {
 
 
 }
+
 
 
 
