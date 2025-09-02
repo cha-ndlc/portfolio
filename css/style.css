@@ -406,6 +406,7 @@ a:active {
         display: block;
         position: absolute;
         bottom: 0;
+        background-color: #0D1B2A;
     }
 
     .header__logo {
@@ -433,3 +434,4 @@ a:active {
 
 
 }
+
