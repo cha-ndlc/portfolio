@@ -3,7 +3,7 @@
 body {
     margin: 0;
     position: relative;
-    background-color: rgba(72, 66, 60, 1);
+    background-color: rgba(11, 12, 16, 1);
 
 }
 
@@ -429,6 +429,7 @@ a:active {
         height: 30px;
         width: 30px;
     }
+
 
 
 }
