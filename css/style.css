@@ -380,13 +380,13 @@ a:active {
     .menu__sublist {
         list-style-type: none;
         border-radius: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
+        padding: 10px;
         background-color: rgba(11, 12, 16, 1);
         position: absolute;
         top: 100%;
         left: 0;  
         display: none;
+        min-width: 150px;
     }
 
     .menu__subitem {
@@ -411,7 +411,6 @@ a:active {
 
     .menu__item:hover .menu__sublist {
         display: block;
-        position: absolute;
         top: 100%;
         left: 0;
     }
@@ -441,6 +440,7 @@ a:active {
 
 
 }
+
 
 
 
