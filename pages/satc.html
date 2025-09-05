@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHA | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="index.html"><img src="img/logo_cha.svg" alt="logo cha" class="body__logo"></a>
+    <header class="header">
+        <nav class="header__container">
+            <div class="header__icons">
+                <a href="https://instagram.com/chaandlc" target=”_blank” class="header__insta">
+                </a>
+                <a href="https://youtube.com/@cha_ilatte" target=”_blank” class="header__yt">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="dropdown">
+    <button id="dropdownButton" class="dropbtn" onclick="toggleDropdown()">Select Episode</button>
+    <div id="menu" class="dropdown-content">
+      <a href="#" onclick="showEpisode(1)">Episode 1</a>
+      <a href="#" onclick="showEpisode(2)">Episode 2</a>
+      <a href="#" onclick="showEpisode(3)">Episode 3</a>
+    </div>
+  </div>
+<h1>A feminist critique of Sex and the City</h1>
+  <div id="episodeContent">
+    <h2>episode 1 : title</h2>
+    <p>my text</p>
+  </div>
+
+  <script>
+    // Episode data
+    const episodes = {
+      1: {
+        title: "episode 1 : title",
+        img: "episode1.jpg",
+        text: "This is my review for episode 1."
+      },
+      2: {
+        title: "Episode 2 Review",
+        img: "episode2.jpg",
+        text: "Episode 2 was amazing!"
+      },
+      3: {
+        title: "Episode 3 Review",
+        img: "episode3.jpg",
+        text: "Episode 3 had a big twist!"
+      }
+    };
+
+    // Show/hide dropdown
+    function toggleDropdown() {
+      const menu = document.getElementById("menu");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    // Show episode content
+    function showEpisode(num) {
+      const ep = episodes[num];
+      document.getElementById("episodeContent").innerHTML = `
+        <h2>${ep.title}</h2>
+        <img src="${ep.img}" alt="Episode ${num}">
+        <p>${ep.text}</p>
+      `;
+      document.getElementById("dropdownButton").innerText = `Episode ${num}`; // update button text
+      document.getElementById("menu").style.display = "none"; // hide menu after click
+    }
+
+    // Show first episode by default
+    showEpisode(1);
+  </script>
+</body>
+</html>
