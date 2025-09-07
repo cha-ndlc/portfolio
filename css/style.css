@@ -190,7 +190,7 @@ height: 100vh;
 
 
 /* TABLET */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
 
     .body__logo {
         position: fixed;
@@ -372,6 +372,7 @@ height: 100vh;
         text-shadow:0 0 10px #BAA6D6, 0 0 20px #BAA6D6, 0 0 35px #BAA6D6, 0 0 55px #BAA6D6;
 
 }
+
 
 
 
