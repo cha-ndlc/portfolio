@@ -273,14 +273,14 @@ height: 100vh;
     }
 
     .header__insta {
-        content: url(../img/logo_cam.svg);
+        content: url(../img/logo_insta.svg);
         display: block;
         height: 30px;
         width: 30px;
     }
 
     .header__yt {
-        content: url(../img/logo_micro.svg);
+        content: url(../img/logo_yt.svg);
         display: block;
         height: 30px;
         width: 30px;
@@ -372,6 +372,7 @@ height: 100vh;
         text-shadow:0 0 10px #BAA6D6, 0 0 20px #BAA6D6, 0 0 35px #BAA6D6, 0 0 55px #BAA6D6;
 
 }
+
 
 
 
