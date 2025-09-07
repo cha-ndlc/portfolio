@@ -90,6 +90,17 @@ a:active {
     padding: 5px;
 
 }
+.header__pinterest {
+    content: url(../img/logo_pinterest.svg);
+    display: block;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 5px #BAA6D6, 0 0 10px #BAA6D6, 0 0 15px #BAA6D6, 0 0 20px #BAA6D6, 0 0 15px #BAA6D6;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+
+}
 
 .main {
     margin-top: 0;
@@ -351,4 +362,5 @@ height: 100vh;
 
     .card:hover .card__text {
         text-shadow:0 0 10px #BAA6D6, 0 0 20px #BAA6D6, 0 0 35px #BAA6D6, 0 0 55px #BAA6D6;
+
 }
