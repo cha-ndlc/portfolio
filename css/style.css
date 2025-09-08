@@ -9,7 +9,7 @@ body {
   background: black;
   background-image: radial-gradient(white 1px, transparent 1px);
   background-size: 50px 50px;
-  background-attachement: fixed;
+  background-attachment: fixed;
 }
 
 .body__logo {
@@ -359,6 +359,7 @@ height: 100vh;
         text-shadow:0 0 10px #BAA6D6, 0 0 20px #BAA6D6, 0 0 35px #BAA6D6, 0 0 55px #BAA6D6;
 
 }
+
 
 
 
