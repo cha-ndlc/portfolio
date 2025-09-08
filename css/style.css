@@ -9,6 +9,7 @@ body {
   background: black;
   background-image: radial-gradient(white 1px, transparent 1px);
   background-size: 50px 50px;
+  background-attachement: fixed;
 }
 
 .body__logo {
@@ -209,7 +210,7 @@ height: 100vh;
         filter: grayscale(100%);
     }
 
-    .header__pinerest {
+    .header__pinterest {
         filter: grayscale(100%);
     }
     
@@ -270,20 +271,6 @@ height: 100vh;
         padding-right: 50px;
         z-index: 10;
         margin: 0;
-    }
-
-    .header__insta {
-        content: url(../img/logo_insta.svg);
-        display: block;
-        height: 30px;
-        width: 30px;
-    }
-
-    .header__yt {
-        content: url(../img/logo_yt.svg);
-        display: block;
-        height: 30px;
-        width: 30px;
     }
 
 .cards-container {
@@ -349,7 +336,7 @@ height: 100vh;
     font-style: normal;
 }
 
-.cards__title:hover {
+.main__cards:hover .cards__title{
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #BAA6D6, 0 0 30px #BAA6D6, 0 0 40px #BAA6D6, 0 0 55px #BAA6D6, 0 0 75px #BAA6D6;
 }
 
@@ -372,6 +359,7 @@ height: 100vh;
         text-shadow:0 0 10px #BAA6D6, 0 0 20px #BAA6D6, 0 0 35px #BAA6D6, 0 0 55px #BAA6D6;
 
 }
+
 
 
 
