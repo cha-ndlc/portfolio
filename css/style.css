@@ -336,7 +336,7 @@ height: 100vh;
     font-style: normal;
 }
 
-.main__cards:hover .cards__title{
+.card:hover .cards__title{
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #BAA6D6, 0 0 30px #BAA6D6, 0 0 40px #BAA6D6, 0 0 55px #BAA6D6, 0 0 75px #BAA6D6;
 }
 
@@ -359,6 +359,7 @@ height: 100vh;
         text-shadow:0 0 10px #BAA6D6, 0 0 20px #BAA6D6, 0 0 35px #BAA6D6, 0 0 55px #BAA6D6;
 
 }
+
 
 
 
